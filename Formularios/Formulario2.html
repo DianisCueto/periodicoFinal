@@ -1,0 +1,79 @@
+﻿<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>	
+    <meta charset="UTF-8">
+    <title>Formulario De Inscripcion</title>
+    <link rel="stylesheet" href="../Css/estilo.css">
+	    <script src="../funciones.js"> </script>
+  </head>
+  <body>
+	
+    <p class="p-nota"> Debe diligenciar todos los campos </p>
+	<form action="#" autocomplete="off">
+   <fieldset>
+		<h2 class="t-formulario"> FORMULARIO DE INSCRIPCION</h2>
+			
+
+			Nombre: <input  type="text" name="nombre" placeholder="Nombre" autofocus  required> <br>
+			<br> Apellidos: <input  type="text" name="apellidos" placeholder="Apellidos" onBlur="validarEntrada(this)"> <br>
+			<br> Edad: <input  type="text" name="edad" placeholder="Edad" pattern="[0-9]{2}" onBlur="validarEntrada(this)" required> <br>
+			<br> identificacion: <input type="text" name="id" placeholder="Numero"  required> <br>
+			<br> posicion:
+ 				<select name="Seleccionar" >
+				  <option value="1">Seleccionar</option>
+   				<option value="2">arquera</option>
+   				<option value="3">medio campista</option>
+  				<option value="4">defensa</option>
+				  <option value="5">delantera</option>
+				</select> <br>
+					<br> departamento de residencia <select name="departamento" required> <br>
+        					<option value="">Seleccionar</option>
+        					<option value="1">Amazonas</option>
+        					<option value="2">Antioquia</option>
+        					<option value="3">Arauca</option>
+        					<option value="4">Atlantico</option>
+        					<option value="5">Bolívar</option>
+        					<option value="6">Boyacá</option>
+        					<option value="7">Caldas</option>
+        					<option value="8">Caqueta</option>
+        					<option value="9">Casanare</option>
+        					<option value="10">Cauca</option>
+        					<option value="11">Cesar</option>
+        					<option value="12">Chocó</option>
+        					<option value="13">Córdoba</option>
+        					<option value="14">Cundinamarca</option>
+        					<option value="15">Guainía</option>
+        					<option value="16">Guaviare</option>
+        					<option value="17">Huila</option>
+        					<option value="18">La Guajira</option>
+        					<option value="19">Magdalena</option>
+        					<option value="20">Metar</option>
+        					<option value="21">Nariño</option>
+        					<option value="22">Norte de Santander</option>
+        					<option value="23">Putumayo</option>
+        					<option value="24">Quindio</option>
+        					<option value="25">Risaralda</option>
+        					<option value="26">San Andres y Providencia</option>
+        					<option value="27">Santander</option>
+        					<option value="28">Sucre</option>
+        					<option value="29">Tolima</option>
+        					<option value="30">Valle del Cauca</option>
+        					<option value="31">Vaupés</option>
+        					<option value="32">Vichada</option>
+				</select> <br>
+					<br> ¿porque cree usted que debe ser seleccionada?<br>
+				<textarea name="comentarios" rows="5" cols="60" required></textarea> <br>
+
+							<br> nivel de estudios: <br>
+								<input type="radio" name="estudios" value="1">Ninguno<br>
+								<input type="radio" name="estudios" value="2">Primaria<br>
+								<input type="radio" name="estudios" value="3">Secundaria<br>
+								<input type="radio" name="estudios" value="3">Tecnica<br>
+								<input type="radio" name="estudios" value="4">Universitario<br>
+
+    </fieldset>
+     <br>
+      <input class="boton" type="submit" name="enviar" value="Enviar" onClick="MensajeRegistro();" >
+</form>
+  </body>
+</html>

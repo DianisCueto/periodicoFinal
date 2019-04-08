@@ -1,0 +1,135 @@
+﻿
+.container{
+  margin-left: 150px;
+  width:1024px;
+  background-color:#3cb371;
+}
+.icono{
+  padding-left: 150px;  <!-- espacio ala izq----->
+  padding-top: 40px;
+}
+.tam{
+  width: 300px; height: 180px; <!-- tamaño imagen-->
+}
+#banner{
+          position:relative;
+          display: inline-block;
+          text-align: center;
+          box-shadow: rgb(150,150, 150);
+          font: bold 60px verdana, sans-serif;
+          text-shadow: #00ffff 3px 3px 5px;
+          -moz-box-sizing:border-box;
+          -webkit-box-sizing:border-box;
+          box-sizing:border-box;
+          }
+#text-imag-centrado{
+          position: absolute;
+          top:50%;
+          left: 50%;
+          transform: translate(-50%, -50%);
+          color: red;
+          width: 700px;
+}
+#h1-1{
+  font-size: 28px;
+  color: white;
+  margin-left: 20px;
+}
+  .section-index
+{
+    margin-left: 100px;
+    display: inline-block;
+}
+aside{
+display: inline-block;
+border: blue 1px dashed;
+  height: 160px; <!-- altura-->
+  width: 300px;  <!-- ancho-->
+  top: 300px;
+  position: absolute;
+  left:900px;  <!-- espacio ala izquierda----->
+  }
+body{
+  background-color: gray;
+}
+footer{
+  margin:auto;
+  width: 1024px;
+  height:100px;
+  background-color:#7FFFD4;
+}
+.pie_pagina{
+  float:none;
+  text-align: center;
+  margin-top: 0;
+  padding-top: 30px;
+  color: white;
+}
+
+
+#titulo{    <!-- titulos de los contenedores-->
+  display: block;
+  width: 260px;
+  height: 40px;
+  margin:1px auto ;
+  padding: 15px;
+  text-align: center;
+  border: 1px solid #999999;
+  background: #DDDDDD;
+  border-radius: 20px;
+  box-shadow: rgb(150,150, 150) 5px 5px;
+  background: -webkit-linear-gradient(top,#ffffff, #006699);
+  position: relative;
+  top:10px;
+}
+h1{
+  color: yellow; <!-- texto del headerr-->
+  font: bold 30px verdana, sans-serif;
+  text-shadow: rgb(0,0,120) 3px 3px 5px;
+  margin:5px;
+}
+section{   <!-- titulo de las noticias -->
+  margin-top: 1px;
+  margin-left: 70px;
+  display: inline-block;
+}
+p{
+  margin: 0px 10px 8px 30px; <!-- desarrollo de las noticias -->
+  text-align: justify;
+}
+a{
+  text-align: justify;
+}
+
+table{
+  position: relative;
+  left: 50px;
+}
+
+.nom-deporte{
+  color: #0000ff;  <!-- nombre de los deportes-->
+}
+
+.volver{
+  margin-left: 50px;
+  color: #ff0000;
+  font-size: 19px;
+}
+
+fieldset{
+  width: 500px;
+  background: orange;
+  margin-top: 25px;
+
+}
+
+.t-formulario{
+  text-align: center;
+}
+.p-nota{
+  margin-top: 15px;
+  margin-left: 100px;
+}
+form{
+  margin-left: 100px;
+}
